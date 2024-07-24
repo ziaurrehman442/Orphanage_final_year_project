@@ -1,0 +1,88 @@
+.slider {
+    position: relative;
+    height: 500px;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  
+  .slide {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    transition: background-image 1s ease-in-out;
+  }
+  
+  .left-arrow, .right-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+  }
+  
+  .left-arrow {
+    left: 10px;
+  }
+  
+  .right-arrow {
+    right: 10px;
+  }
+  
+
+
+  .slider {
+    position: relative;
+    height: 570px;
+    width: 100%; /* Set the slider width to 100% */
+    margin: auto;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  
+  .slide {
+    height: 100%;
+    width: 100%; /* Set the width of the slide to 100% */
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    transition: background-image 1s ease-in-out;
+  }
+  
+  .left-arrow,
+  .right-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+  }
+  
+  .left-arrow {
+    left: 10px;
+  }
+  
+  .right-arrow {
+    right: 10px;
+  }
+  .slide {
+    
+    /* background-size: contain; Change from 'cover' to 'contain' */
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    transition: background-image 1s ease-in-out;
+  }
+    

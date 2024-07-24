@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+body{
+    margin: 0;
+    padding:0;
+    font-family: "Open Sans", sans-serif;
+    background-color: #f5f7fa;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.megamenu_top{
+    margin-top: 20px;
+    align-content: center;
+}
+.bold-cont{
+        z-Index: 10px; 
+        background-color: white; 
+        padding: 20px;
+        border-radius: 20px;
+}
+body{
+    background-color: white;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 300 bold;
+
+}
+
+.Select-control:hover {
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);
+}
+.Select, .Select div, .Select input, .Select span {
+    width: 100%;
+}
+
+.Select-control {
+    background-color: #fff;
+    color: #333;
+    cursor: default;
+    display: table;
+    border-spacing: 0;
+    border-collapse: separate;
+    height: 36px;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.Select-placeholder, .Select--single > .Select-control .Select-value {
+    bottom: 0;
+    color: #aaa;
+    left: 0;
+    line-height: 34px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+} 
+
+.Select-clear {
+    display: none;
+    
+}
+.megamenu_top1{
+    margin-top: 20px;
+    align-content: center;
+}
+.image-mega{
+    margin-top: 40px;
+    max-height: 300px;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+.mega-link{
+    margin-top: 20px;
+    align-content: center;
+}
+.mega-link2{
+    margin-top: 20px;
+}
+.first{
+    margin-top: 20px;
+    height: 250px;
+    background-color: lightgray;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+.h1{
+    margin-top: 10%;
+}
+.brodercol{
+    border: 1px solid #b9bfc4;
+    border-radius: 6px;
+    margin-top: 25px;
+    padding: 10px;
+}
+.imgnumber{
+    width: 100%;
+}
+
+.brand-cont{
+    overflow-y: scroll;
+    max-height: 250px;
+}
+
+.brand-cont span{
+    position: relative;
+}
+
+.BTW8mG_spectrum-Slider-track{
+    color: black;
+    background: black;
+    height: 10px;
+    margin-left: 1%;
+}
+.svg{
+    width: 30px;
+}
+.flex span{
+    font-size: large;
+    margin-left: 10px;
+    text-decoration: none;
+}
+.flex{
+    text-decoration: none;
+    color: black;
+}
+.rightprofile{
+    margin-top: 70px;
+}
+.profilebtn{
+    width: 35px;
+}
+
+@media screen and (max-width: 580px) {
+    .langbtn{
+        margin-left: 1rem;
+        margin-top: 10px;
+    }
+
+    .image-mega{
+        margin-top: 10px;
+        max-height: 220px;
+        border-radius: 30px;
+        margin-right: 10px;
+    }
+    #popup{
+        top: "17%"
+    }
+    .mega-link2{
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+    .last-button{
+        margin-top: 20px;
+    }
+    .h1{
+        margin-top: 50%;
+    }
+    .first{
+        margin-top: 20px;
+        min-height: 250px;
+        background-color: lightgray;
+        border-radius: 10px;
+        padding: 20px;
+    }
+    .megamenu_top1{
+        margin-top: 0px;
+        align-content: center;
+    }
+}

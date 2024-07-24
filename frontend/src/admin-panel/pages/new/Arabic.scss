@@ -1,0 +1,60 @@
+.input-full-width {
+    margin: 5%;
+}
+
+.input-title {
+    outline: 0; 
+    border-width: 0 0 2px; 
+    border-color: rgb(78, 81, 78);
+}
+
+.urdu-select-container {
+    width: 200px;
+  }
+
+  .urdu-select {
+    width: 100%;
+    padding: 3px;
+    font-size: 14px;
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: #f0f0f0;
+    direction: rtl;
+    text-align: right;
+  }
+
+
+  .urdu-select:focus {
+  outline: none;
+  border-bottom: 2px solid blue;
+}
+
+.rtl {
+    direction: rtl;
+}
+
+.text-right {
+    text-align: right !important;
+}
+
+.form-group {
+    width: 100%;
+}
+
+.meta_description {
+  width: 95%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #c5c6c3;
+  border-radius: 4px;
+  background-color: white;
+  font-size: 16px;
+  resize: none;
+  margin-top: 1%;
+}
+
+.meta_description:focus {
+    border: 2px solid #c5c6c3
+}
+

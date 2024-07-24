@@ -1,0 +1,26 @@
+.wrapper-textarea{
+    width: 94%;
+    border: 1px solid grey;
+    border-radius: 10px;
+    border: 2px solid #c5c6c3;
+    padding: 10px;
+    margin-top: 2%;
+  }
+  
+  .editor{
+    background-color: white;
+    overflow: hidden;
+    border: 1px solid grey;
+    border-radius: 10px;
+    border: 2px solid #c5c6c3;
+    padding: 10px;
+  }
+
+  .toolbar {
+    background-color: white;
+    overflow: hidden;
+    border: 1px solid grey;
+    border-radius: 10px;
+    border: 2px solid #c5c6c3;
+    padding: 10px;
+  }

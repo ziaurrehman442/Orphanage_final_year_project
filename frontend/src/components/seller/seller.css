@@ -1,0 +1,4 @@
+.flex .w-100, .w-100.flex{
+  display: flex;
+}
+  

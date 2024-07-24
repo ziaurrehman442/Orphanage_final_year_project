@@ -1,0 +1,89 @@
+.page-header {
+    background: url('https://via.placeholder.com/1600x500?text=Contact+Us') no-repeat center center;
+    background-size: cover;
+    padding: 60px 0;
+    position: relative;
+}
+
+.page-header-box {
+    text-align: center;
+    color: #fff;
+}
+
+.text-anime-style-3 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.breadcrumb {
+    background: transparent;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: inline-block;
+}
+
+.breadcrumb-item {
+    display: inline;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    content: ">";
+    padding: 0 10px;
+}
+
+.breadcrumb-item a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.breadcrumb-item.active {
+    color: #f8f9fa;
+}
+
+.contact-content {
+    padding: 60px 0;
+}
+
+.contact-card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 30px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.contact-icon {
+    font-size: 2rem;
+    color: #007bff;
+    margin-right: 15px;
+}
+
+.contact-details h5 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.contact-details p {
+    margin: 0;
+    font-size: 1rem;
+    color: #555;
+}
